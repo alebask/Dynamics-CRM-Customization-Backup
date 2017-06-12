@@ -65,7 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CustomizationBackupKey.snk" />
+    <None Include="CustomizationBackup_1_0_0_0.zip" />
     <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="customizationbackup.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
